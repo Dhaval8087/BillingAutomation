@@ -1,0 +1,30 @@
+{
+  "name": "bilingautomation",
+  "version": "1.0.0",
+  "description": "biling automation is api which is use for solor sytem billing generation and calculate the billing it's also contain the api related to users and companies ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhaval8087/BillingAutomation.git"
+  },
+  "keywords": [
+    "solor",
+    "system"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dhaval8087/BillingAutomation/issues"
+  },
+  "homepage": "https://github.com/Dhaval8087/BillingAutomation#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "4.14.0",
+    "lodash": "^4.14.2",
+    "mongoose": "^4.5.8"
+  },
+  "devDependencies": {}
+}
