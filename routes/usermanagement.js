@@ -6,6 +6,7 @@ module.exports=function(app)
 
    /*create user */
    app.post('/user',function(req,res){
+      console.log(req.body);
      var newUser = new userModel(req.body);
      newUser.save(function(err){
          if(err)
